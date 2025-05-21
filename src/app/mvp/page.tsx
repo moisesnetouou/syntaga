@@ -18,8 +18,13 @@ const MonacoEditor = dynamic(() => import('@monaco-editor/react'), {
  * - [ ] Criar página que lista conquistas
  */
 
-const DEFAULT_CODE = `const message = 'Olá mundo!'
-console.log(message)`;
+const DEFAULT_CODE = `
+function run() {
+  // Inserir código aqui
+}
+
+console.log(run())
+`;
 
 type Achievement = {
   id: string;
